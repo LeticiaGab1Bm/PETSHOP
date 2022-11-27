@@ -1,76 +1,402 @@
-# HTML 1 #
+# INDEX #
 
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width">
-		<title>Lê Pet Shop</title>
+		<title>Home - Lê Pet Shop</title>
 
 		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="style.css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style(2).css">
 	</head>
-
-	<body>
+	
 		<header>
 			<div class="caixa">
-				<h1><img src="logo-arranhao.png"></h1>
+				<h1><img src="coracaopng.png"></h1>
 
 				<nav>
 					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="produtos.html">Produtos</a></li>
-						<li><a href="contato.html">Contato</a></li>
+						<li><a href="index(2).html">Home</a></li>
+						<li><a href="produtos(2).html">Produtos</a></li>
+						<li><a href="contato(2).html">Contato</a></li>
 					</ul>
 				</nav>
 			</div>
 		</header>
 
-		<img class="banner" src="gatoecachorro.jpg">
+		<img class="nomeroxo" src="nomeroxo.jpg">
 
+	<body>
 		<main>
 			<section class="principal">
 				<h2 class="titulo-principal">Sobre a Lê Pet Shop</h2>
-
-				<img class="utensilios" src="utensilios.jpg" alt="Utensilios de um barbeiro">
 		 
-				<p>Localizada no coração da cidade a <strong>Lê Pet Shop</strong> traz para o mercado o que há de melhor para o seu bichinho de estimação. Fundada em 2022, a Lê Pet Shop já é destaque na cidade e conquista novos clientes a cada dia.</p>
+				<p>Localizada no coração da cidade a <strong>Lê Pet Shop</strong> traz para o mercado o que há de melhor para o seu bichinho de etimação. Fundada em 2022, a Lê Pet Shop já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
 				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar saúde e qualidade de vida aos pets"</strong>.</em></p>
 
-				<p>Oferecemos profissionais experientes e antenados. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-			</section>
-
-			<section class="mapa">
-				<h3 class="titulo-principal">Nosso Estabelecimento</h3>
-				<p>Nosso estabelecimento está localizado no coração da cidade.</p>
-
-				<div class="mapa-conteudo">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.106693514147!2d-46.65391084917274!3d-23.564611267522842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59541c6c79c3%3A0x36b90a85f0f8cb33!2sGrupo%20Alura!5e0!3m2!1spt-BR!2sbr!4v1663113024050!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-				</div>
-
-			</section>
-
-			<section class="beneficios">
-				<h3 class="titulo-principal">Benefícios</h3>
-				<div class="conteudo-beneficios">
-					<ul class="lista-beneficios">
-						<li class="itens">Atendimento aos Clientes</li>
-						<li class="itens">Espaço diferenciado</li>
-						<li class="itens">Localização</li>
-						<li class="itens">Profissionais Qualificados</li>
-						<li class="itens">Pontualidade</li>
-						<li class="itens">Limpeza</li>
-					</ul><img src="beneficios.jpg" class="imagem-beneficios">
-				</div>
-				
+				<p>Oferecemos profissionais experientes e antenados e cuidadosos com os pets. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
 			</section>
 		</main>
 
+		<img class="cachorro" src="cachorro.jpg">
+
 		<footer>
-			<img src="logo-branco.png">
-			<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+			<img src="logo-coracaopng.png" alt="Logo da Barbearia Alura">
+			<p class="copyright">&copy; Copyright Lê Pet Shop - 2022</p>
 		</footer>
 	</body>
 </html>
+
+# PODUTOS #
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Produtos - Lê Pet Shop</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style(2).css">
+	</head>
+
+		<header>
+			<div class="caixa">
+				<h1><img src="coracaopng.png"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="index(2).html">Home</a></li>
+						<li><a href="produtos(2).html">Produtos</a></li>
+						<li><a href="contato(2).html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+	<body>
+		<main>
+			<ul class="produtos">
+				<li>
+					<h2>Ração</h2>
+					<img src="racao.jpg">
+					<p class="produto-descricao">Ração universal para todos os animais. (informar espécie no pedido)</p>
+					<p class="produto-preco">R$ 14,50 Kg</p>
+				</li>
+				<li>
+					<h2>Banho</h2>
+					<img src="banho.jpg">
+					<p class="produto-descricao">Seu pet volta cherosinho com um acessório.</p>
+					<p class="produto-preco">R$ 30,00</p>
+				</li>
+				<li>
+					<h2>Banho + Tosa</h2>
+					<img src="banho-tosa.jpg">
+					<p class="produto-descricao">Pacote completo de banho e tosa, incluindo acessório.</p>
+					<p class="produto-preco">R$ 40,00</p>
+				</li>
+			</ul>
+		</main>
+
+		<footer>
+			<img src="logo-coracaopng.png" alt="Logo da Lê Pet Shop">
+			<p class="copyright">&copy; Copyright Lê Pet Shop - 2022</p>
+		</footer>
+	</body>
+</html>
+
+# CONTATO #
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contato - Lê Pet Shop</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style(2).css">
+	</head>
+
+		<header>
+			<div class="caixa">
+				<h1><img src="coracaopng.png"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="index(2).html">Home</a></li>
+						<li><a href="produtos(2).html">Produtos</a></li>
+						<li><a href="contato(2).html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+	<body>
+		<main>
+			<form>
+				<label for="nomesobrenome">Nome e sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+					
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+					
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+			</form>
+
+			<table>
+				<tr>
+					<td>Dia</td>
+					<td>Horário</td>
+				</tr>
+				<tr>
+					<td>Segunda</td>
+					<td>8h ~ 20h</td>
+				</tr>
+				<tr>
+					<td>Quarta</td>
+					<td>8h ~ 20h</td>
+				</tr>
+				<tr>
+					<td>Sexta</td>
+					<td>8h ~ 20h</td>
+				</tr>
+			</table>
+		</main>
+
+		<footer>
+			<img src="~coracaopng.png" alt="Logo da Lê Pet Shop">
+			<p class="copyright">&copy; Copyright Lê Pet Shop - 2022</p>
+		</footer>
+	</body>
+</html>
+
+# SYLE.CSS # 
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: 939;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.dados {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color: #C78C19;
+}
+
+.produtos li:active {
+	border-color: #088C19;	
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+
+/* css da página inicial */
+.nomeroxo {
+	width:100%;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.cachorro {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+
+
+
+
+
+
+
+
