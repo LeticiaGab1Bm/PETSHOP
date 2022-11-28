@@ -1,4 +1,4 @@
-# INDEX #
+# INDEX (html 1) #
 
 <!DOCTYPE html>
 <html>
@@ -48,64 +48,7 @@
 	</body>
 </html>
 
-# PODUTOS #
-
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Produtos - Lê Pet Shop</title>
-
-		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="style(2).css">
-	</head>
-
-		<header>
-			<div class="caixa">
-				<h1><img src="coracaopng.png"></h1>
-
-				<nav>
-					<ul>
-						<li><a href="index(2).html">Home</a></li>
-						<li><a href="produtos(2).html">Produtos</a></li>
-						<li><a href="contato(2).html">Contato</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-
-	<body>
-		<main>
-			<ul class="produtos">
-				<li>
-					<h2>Ração</h2>
-					<img src="racao.jpg">
-					<p class="produto-descricao">Ração universal para todos os animais. (informar espécie no pedido)</p>
-					<p class="produto-preco">R$ 14,50 Kg</p>
-				</li>
-				<li>
-					<h2>Banho</h2>
-					<img src="banho.jpg">
-					<p class="produto-descricao">Seu pet volta cherosinho com um acessório.</p>
-					<p class="produto-preco">R$ 30,00</p>
-				</li>
-				<li>
-					<h2>Banho + Tosa</h2>
-					<img src="banho-tosa.jpg">
-					<p class="produto-descricao">Pacote completo de banho e tosa, incluindo acessório.</p>
-					<p class="produto-preco">R$ 40,00</p>
-				</li>
-			</ul>
-		</main>
-
-		<footer>
-			<img src="logo-coracaopng.png" alt="Logo da Lê Pet Shop">
-			<p class="copyright">&copy; Copyright Lê Pet Shop - 2022</p>
-		</footer>
-	</body>
-</html>
-
-# CONTATO #
+# CONTATO (html 2) #
 
 <!DOCTYPE html>
 <html>
@@ -134,7 +77,7 @@
 	<body>
 		<main>
 			<form>
-				<label for="nomesobrenome">Nome e sobrenome</label>
+				<label for="nomesobrenome">Nome e Sobrenome</label>
 				<input type="text" id="nomesobrenome" class="input-padrao" required>
 
 				<label for="email">Email</label>
@@ -196,7 +139,64 @@
 	</body>
 </html>
 
-# SYLE.CSS # 
+# PRODUTOS (html 3) #
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Produtos - Lê Pet Shop</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style(2).css">
+	</head>
+
+		<header>
+			<div class="caixa">
+				<h1><img src="coracaopng.png"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="index(2).html">Home</a></li>
+						<li><a href="produtos(2).html">Produtos</a></li>
+						<li><a href="contato(2).html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+	<body>
+		<main>
+			<ul class="produtos">
+				<li>
+					<h2>Ração</h2>
+					<img src="racao.jpg">
+					<p class="produto-descricao">Ração universal para todos os animais. (informar espécie no pedido)</p>
+					<p class="produto-preco">R$ 14,50 Kg</p>
+				</li>
+				<li>
+					<h2>Banho</h2>
+					<img src="banho.jpg">
+					<p class="produto-descricao">Seu pet volta cherosinho com um acessório.</p>
+					<p class="produto-preco">R$ 30,00</p>
+				</li>
+				<li>
+					<h2>Banho + Tosa</h2>
+					<img src="banho-tosa.jpg">
+					<p class="produto-descricao">Pacote completo de banho e tosa, incluindo acessório.</p>
+					<p class="produto-preco">R$ 40,00</p>
+				</li>
+			</ul>
+		</main>
+
+		<footer>
+			<img src="logo-coracaopng.png" alt="Logo da Lê Pet Shop">
+			<p class="copyright">&copy; Copyright Lê Pet Shop - 2022</p>
+		</footer>
+	</body>
+</html>
+
+# SYLE.CSS (petshop) # 
 
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -392,11 +392,191 @@ td, th {
 	padding: 50px 0;
 }
 
+# INDEX JAVA #
 
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Cintrole - Lê Pet Shop</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
 
+	</head>
+	<body>
 
+		<header>
+			<div class="container">
+				<h2 class="titulo">Controle dos Pets</h2>
+			</div>
+		</header>
+		<main>
+			<section class="container">
+				<h2>Pets</h2>
+				<label for="filtrar-tabela">Filtre:</label>
+				<input type="text" name="filtro" id="filtrar-tabela" placeholder="Digite o nome do pet">
+				<table>
+					<thead>
+						<tr>
+							<th>Nome</th>
+							<th>Peso(kg)</th>
+							<th>Raça</th>
+							<th>Nome do Dono</th>
+							<th>Preço</th>
+						</tr>
+					</thead>
+					<tbody id="tabela-pacientes">
+						<tr class="paciente" id="primeiro-paciente">
+							<td class="info-nome">Rex</td>
+							<td class="info-peso">100</td>
+							<td class="info-altura">2.00</td>
+							<td class="info-gordura">10</td>
+							<td class="info-imc">0</td>
+						</tr>
 
+						<tr class="paciente" >
+							<td class="info-nome">Bibi</td>
+							<td class="info-peso">80</td>
+							<td class="info-altura">1.72</td>
+							<td class="info-gordura">40</td>
+							<td class="info-imc">0</td>
+						</tr>
 
+						<tr class="paciente" >
+							<td class="info-nome">Atlas</td>
+							<td class="info-peso">54</td>
+							<td class="info-altura">1.64</td>
+							<td class="info-gordura">14</td>
+							<td class="info-imc">0</td>
+						</tr>
 
+						<tr class="paciente">
+							<td class="info-nome">Picolé</td>
+							<td class="info-peso">85</td>
+							<td class="info-altura">1.73</td>
+							<td class="info-gordura">24</td>
+							<td class="info-imc">0</td>
+						</tr>
+						<tr class="paciente" >
+							<td class="info-nome">Marmore</td>
+							<td class="info-peso">46</td>
+							<td class="info-altura">1.55</td>
+							<td class="info-gordura">19</td>
+							<td class="info-imc">0</td>
+						</tr>
+					</tbody>
+				</table>
+				<span id="erro-ajax" class="invisivel">Erro ao buscar pet</span>
+
+				<button id="buscar-pacientes" class="botao bto-principal">Buscar pet</button>
+
+			</section>
+		</main>
+
+		<section class="container">
+		    <h2 id="titulo-form">Adicionar novo pet</h2>
+			<ul id="mensagens-erro"></ul>
+		    <form id="form-adiciona">
+		        <div class="">
+		            <label for="nome">Nome:</label>
+		            <input id="nome" name="nome" type="text" placeholder="digite o nome do pet" class="campo">
+		        </div>
+		        <div class="grupo">
+		            <label for="peso">Peso:</label>
+		            <input id="peso" name="peso" type="text" placeholder="digite o peso do pet"ss class="campo campo-medio">
+		        </div>
+		        <div class="grupo">
+		            <label for="altura">Raça:</label>
+		            <input id="altura" name="altura" type="text" placeholder="digite a raça do pet" class="campo campo-medio">
+		        </div>
+		        <div class="grupo">
+		            <label for="altura">Nome do dono:</label>
+		            <input id="altura" name="altura" type="text" placeholder="digite a raça do pet" class="campo campo-medio">
+		        </div>
+		        <div class="grupo">
+		            <label for="gordura">Preço:</label>
+		            <input id="gordura" type="text" placeholder="digite o nome do dono" class="campo campo-medio">
+		        </div>
+
+		        <button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
+		    </form>
+		</section>
+
+		<script src="js/calcula-imc.js" ></script>
+		<script src="js/form.js" ></script>
+		<script src="js/remover-paciente.js" ></script>
+		<script src="js/filtra.js" ></script>
+		<script src="js/buscar-pacientes.js" ></script>
+
+	</body>
+</html>
+
+# CALCULA IMC (preço) #
+
+var titulo = document.querySelector(".titulo");
+titulo.textContent = "Aparecida Nutricionista";
+
+var pacientes = document.querySelectorAll(".paciente");
+
+for (var i = 0; i < pacientes.length; i++) {
+
+    var paciente = pacientes[i];
+
+    var tdPeso = paciente.querySelector(".info-peso");
+    var peso = tdPeso.textContent;
+
+    var tdAltura = paciente.querySelector(".info-altura");
+    var altura = tdAltura.textContent;
+
+    var tdImc = paciente.querySelector(".info-imc");
+
+    var pesoEhValido = validaPeso(peso);
+    var alturaEhValida = validaAltura(altura);
+
+    if (!pesoEhValido) {
+        console.log("Peso inválido!");
+        pesoEhValido = false;
+        tdImc.textContent = "Peso inválido";
+        paciente.classList.add("paciente-invalido");
+    }
+
+    if (!alturaEhValida) {
+        console.log("Altura inválida!");
+        alturaEhValida = false;
+        tdImc.textContent = "Altura inválida";
+        paciente.classList.add("paciente-invalido");
+    }
+
+    if (pesoEhValido && alturaEhValida) {
+        var imc = calculaImc(peso, altura);
+        tdImc.textContent = imc;
+    }
+}
+
+function calculaImc(peso) {
+    var imc = 0;
+    preço = peso * 8 (peso * 8);
+
+    return imc.toFixed(2);
+}
+
+function validaPeso(peso) {
+
+    if (peso >= 0 && peso <= 1000) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function validaAltura(altura) {
+
+    if (altura >= 0 && altura <= 3.00) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 
