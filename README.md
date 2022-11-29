@@ -580,3 +580,69 @@ function validaAltura(altura) {
 }
 
 
+
+
+
+
+
+## h ##
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Home - Lê Pet Shop</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style(pet).css">
+	</head>
+
+	<body>
+		<header>
+			<h1><img src="banho.jpg"></h1>
+
+			<div>
+				<nav>
+					<ul>
+						<li><a href="index(pet).html">Home</a></li>
+						<li><a href="produtos(pet).html">Produtos</a></li>
+						<li><a href="contato(pet).html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<h2 class="titulo">Lê Pet Shop</h2> 
+
+		<main class="textos">
+
+			<p>Localizada no coração da cidade a <strong>Lê Pet Shop</strong> traz para o mercado o que há de melhor para o seu bichinho de etimação. Fundada em 2022, a Lê Pet Shop já é destaque na cidade e conquista novos clientes a cada dia.</p>
+
+			<p id="missao"><em>Nossa missão é: <strong>"Proporcionar saúde e qualidade de vida aos pets"</strong>.</em></p>
+
+			<p>Oferecemos profissionais experientes e antenados e cuidadosos com os pets. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+		</main>
+
+	</body>
+
+.textos {
+	width: 940px;
+	margin: 0 auto;
+	padding-top: 2px;
+}
+
+.titulo {
+	text-align: center;
+	padding-top: 15px;
+}
+
+nav li {
+	display: inline;
+}
+
+body {
+	background: #DDA0DD;
+}
+
+nav a {
+	text-transform: uppercase;
+}
