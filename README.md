@@ -1,52 +1,106 @@
-# INDEX (html 1) #
+# INDEX (home) #
 
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<title>Home - Lê Pet Shop</title>
-
 		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="style(2).css">
+		<link rel="stylesheet" href="style(pet).css">
 	</head>
-	
+
+	<body>
+
 		<header>
 			<div class="caixa">
-				<h1><img src="coracaopng.png"></h1>
-
 				<nav>
 					<ul>
-						<li><a href="index(2).html">Home</a></li>
-						<li><a href="produtos(2).html">Produtos</a></li>
-						<li><a href="contato(2).html">Contato</a></li>
+						<li><a href="index(pet).html">Home</a></li>
+						<li><a href="produtos(pet).html">Produtos</a></li>
+						<li><a href="contato(pet).html">Contato</a></li>
 					</ul>
 				</nav>
 			</div>
 		</header>
 
-		<img class="nomeroxo" src="nomeroxo.jpg">
+		<h1 class="titulo">Sobre a Lê Pet Shop</h1> 
 
-	<body>
-		<main>
-			<section class="principal">
-				<h2 class="titulo-principal">Sobre a Lê Pet Shop</h2>
-		 
-				<p>Localizada no coração da cidade a <strong>Lê Pet Shop</strong> traz para o mercado o que há de melhor para o seu bichinho de etimação. Fundada em 2022, a Lê Pet Shop já é destaque na cidade e conquista novos clientes a cada dia.</p>
+		<main class="textos">
+			<p>Localizada no coração da cidade a <strong>Lê Pet Shop</strong> traz para o mercado o que há de melhor para o seu bichinho de etimação. Fundada em 2022, a Lê Pet Shop já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
-				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar saúde e qualidade de vida aos pets"</strong>.</em></p>
+			<p id="missao"><em>Nossa missão é: <strong>"Proporcionar saúde e qualidade de vida aos pets"</strong>.</em></p>
 
-				<p>Oferecemos profissionais experientes e antenados e cuidadosos com os pets. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-			</section>
+			<p>Oferecemos profissionais experientes e antenados e cuidadosos com os pets. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
 		</main>
 
-		<img class="cachorro" src="cachorro.jpg">
+		<h2><img src="cachorro.jpg" height="300px" width="400px" alt="Cachorro"></h2>
 
 		<footer>
-			<img src="logo-coracaopng.png" alt="Logo da Barbearia Alura">
-			<p class="copyright">&copy; Copyright Lê Pet Shop - 2022</p>
+			<img src="logo-coracaopng.png" height="150px" width="200px" alt="Copyright">
+			<p>Copyright Lê Pet Shop - 2022</p>
 		</footer>
+
 	</body>
-</html>
+
+# STYLE CSS (css-home)#
+
+header {
+	padding: 20px 0;
+}
+
+.logo {
+	height: 150px;
+	width: 200px;
+}
+
+.textos {
+	text-align: center;
+	padding: 0 200px;
+}
+
+.titulo {
+	text-align: center;
+	top: 200px;
+	margin: 30px 0 30px 0;
+	color: #939;
+}
+
+.caixa {
+	text-transform: uppercase;
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	background: #DA70D6;
+}
+
+nav {
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+body {
+	background: #DDA0DD;
+}
+
+nav a {
+	font-size: 25px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+
+h2 {		
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	background: #DA70D6;
+}
 
 # CONTATO (html 2) #
 
