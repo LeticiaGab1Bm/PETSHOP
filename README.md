@@ -44,7 +44,7 @@
 
 	</body>
 	
-# CSS INDEX #
+# CSS HOME #
 
 /*css do cabeçalho */
 body {
